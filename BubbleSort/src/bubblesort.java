@@ -25,7 +25,7 @@ public class bubblesort{
 	    
 	    /* system print out on external file */
 	    try{
-			out.write(Arrays.toString(bubbleSort(sorted)));
+			out.write(" bubble sort version 2 "+ Arrays.toString(bubbleSort(sorted)));
 			out.close();
 		}
 		catch (Exception e){
